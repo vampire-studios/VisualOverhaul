@@ -1,37 +1,38 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "visualoverhaul",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Visual Overhaul",
+  "description": "",
   "authors": [
-    "Me!"
+    {
+      "name": "JoeZwet",
+      "email": "contact@joezwet.me",
+      "homepage": "https://joezwet.me"
+    }
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/visualoverhaul/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.vampirestudios.visualoverhaul.VisualOverhaul"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+
   ],
 
   "depends": {
     "fabricloader": ">=0.4.0",
     "fabric": "*",
-    "minecraft": "1.14.x"
-  },
-  "suggests": {
-    "flamingo": "*"
+    "minecraft": ">=1.15-rc.3"
   }
 }
