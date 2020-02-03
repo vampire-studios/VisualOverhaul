@@ -10,11 +10,15 @@
       "name": "JoeZwet",
       "email": "contact@joezwet.me",
       "homepage": "https://joezwet.me"
+    },
+    {
+      "name": "Vampire Studios",
+      "homepage": "https://github.com/vampire-studios"
     }
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/vampire-studios/VisualOverhaul",
+    "sources": "https://github.com/vampire-studios/VisualOverhaul"
   },
 
   "license": "MIT",

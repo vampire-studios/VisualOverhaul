@@ -4,6 +4,7 @@
   "compatibilityLevel": "JAVA_8",
   "minVersion": "0.1.0-alpha",
   "mixins": [
+    ""
   ],
   "client": [
   ],
