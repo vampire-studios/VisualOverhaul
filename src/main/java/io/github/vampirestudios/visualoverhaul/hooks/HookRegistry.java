@@ -10,7 +10,7 @@ public class HookRegistry {
 
     /**
      * IMPORTANT: add mod id and version to fabric.mod.json in the suggests section.
-     * @param hook
+     * @param hook the hook that is gonna be registered
      */
     public void register(ModHook hook) {
         if(!this.registeredHooks.containsKey(hook.modid)) {
