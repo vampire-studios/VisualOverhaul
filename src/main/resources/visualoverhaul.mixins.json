@@ -1,9 +1,16 @@
 {
   "required": true,
-  "package": "io.github.vampirestudios",
+  "package": "io.github.vampirestudios.visualoverhaul.mixins",
   "compatibilityLevel": "JAVA_8",
   "minVersion": "0.1.0-alpha",
   "mixins": [
+    "FluidRendererMixin",
+    "AbstractSkullBlockMixin",
+    "BedBlockEntityRendererMixin",
+    "BedBlockMixin",
+    "FluidRendererMixin",
+    "ModelElementDeserializerMixin",
+    "SkullBlockEntityRendererMixin"
   ],
   "client": [
   ],

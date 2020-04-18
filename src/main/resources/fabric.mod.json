@@ -1,38 +1,38 @@
 {
-  "schemaVersion": 1,
-  "id": "visualoverhaul",
-  "version": "${version}",
+    "schemaVersion": 1,
+    "id": "visualoverhaul",
+    "version": "${version}",
 
-  "name": "Visual Overhaul",
-  "description": "",
-  "authors": [
-    {
-      "name": "JoeZwet",
-      "email": "contact@joezwet.me",
-      "homepage": "https://joezwet.me"
+    "name": "Visual Overhaul",
+    "description": "",
+    "authors": [
+        {
+            "name": "JoeZwet",
+            "email": "contact@joezwet.me",
+            "homepage": "https://joezwet.me"
+        }
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+
+    "license": "MIT",
+    "icon": "assets/visualoverhaul/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.vampirestudios.visualoverhaul.VisualOverhaul"
+        ]
+    },
+    "mixins": [
+        "visualoverhaul.mixins.json"
+    ],
+
+    "depends": {
+        "fabricloader": ">=0.4.0",
+        "fabric": "*",
+        "minecraft": ">=1.15-rc.3"
     }
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "MIT",
-  "icon": "assets/visualoverhaul/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "io.github.vampirestudios.visualoverhaul.VisualOverhaul"
-    ]
-  },
-  "mixins": [
-
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.4.0",
-    "fabric": "*",
-    "minecraft": ">=1.15-rc.3"
-  }
 }
